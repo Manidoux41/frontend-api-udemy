@@ -5,6 +5,8 @@ const RoomsPage = () => {
   return (
     <Routes>
         <Route path='/' element={<h2>Rooms</h2>} />
+        <Route path=':id' element={<h2>Rooms</h2>} />
+
     </Routes>
   )
 }
